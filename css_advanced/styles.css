@@ -23,29 +23,33 @@ header {
 }
 
 .toplinks {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .maintext {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .maintext h1 {
   font-weight: 700;
   font-size: 120px;
   margin-top: 200px;
+  margin-bottom: 0;
 }
 
 .words {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row;
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;
+  gap: 40px;
+  margin-top: 10px;
+}
 
+.words p {
+  margin: 0;
 }
