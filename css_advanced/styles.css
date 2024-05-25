@@ -9,16 +9,15 @@ body {
 header {
   background-image: url("./images/big-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  width: auto;
-  padding: 20px;
+  width: 1440px;
+  height: 1093px;
 }
 
 .topheading {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 1rem;
 }
 
 #logo {
@@ -34,6 +33,8 @@ header {
   font-weight: 700;
   gap: 45px;
   margin: 0;
+  width: 234px;
+  height: 15px;
 }
 
 .maintext {
@@ -47,8 +48,8 @@ header {
 .maintext h1 {
   font-weight: 700;
   font-size: 120px;
-  margin: 0;
-  margin-top: 13rem;
+  margin-bottom: -1rem;
+  margin-top: 10.5rem;
 }
 
 .words {
@@ -65,7 +66,7 @@ header {
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 button {
@@ -85,15 +86,17 @@ button {
 
 .pros-container {
   text-align: center;
-  width: auto;
-  height: auto;
-  padding-top: 7rem;
+  padding-top: 3rem;
+  width: 1009px;
+  height: 237px;
 }
 
 .pros-container h2 {
   font-weight: 700;
   font-size: 32px;
   color: #FFFFFF;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 .pros-container span {
   color: #C271FF;
@@ -110,15 +113,13 @@ button {
   height: 27px;
   font-size: 18px;
   text-align: center;
-  line-height: 18px;
   color: #FFFFFF;
 }
 
 .all-pros .person p {
   width: 150px;
   height: 48px;
-  top: 189px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
