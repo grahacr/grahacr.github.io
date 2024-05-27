@@ -168,15 +168,37 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  height: 392px;
   width: 100%;
+  padding: 2rem;
+  height: 392px;
+  width: 1440px;
 }
 
-.quoteguy {
-  margin-right: 20px;
+.testimonial img {
+  flex: 0 0 auto;
+  margin-right: 1rem;
 }
 
 .quote {
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content:space-between;
+  width: 730px;
+  height: 158px;
+  font-size: 22px;
+  font-weight: 400px;
+  color: #FFFFFF; 
+}
+
+.quote blockquote {
+  margin: 0;
+}
+
+.quoteinfo p {
+  margin: 0;
+}
+
+.quoteinfo span {
+  font-weight: 700;
 }
