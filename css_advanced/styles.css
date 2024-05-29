@@ -419,9 +419,19 @@ button {
 
 .icons {
   display: flex;
-  padding-left: 42rem;
+  padding-left: 39rem;
+  margin-top: -10px;
 }
 
-.footer-container p {
+.icons img {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.footer-cr {
   color: #FFFFFF;
+  align-items: end;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 35%;
 }
