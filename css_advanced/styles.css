@@ -363,6 +363,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1440px;
 }
 
 .faq-container h1 {
@@ -399,5 +400,28 @@ button {
   font-size: 14px;
   line-height: 24px;
   color: #07162980;
+}
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #071629;
+  height: 249px;
+  max-width: 1440px;
+}
+
+.footer-images {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  padding-left: 42rem;
+}
+
+.footer-container p {
+  color: #FFFFFF;
 }
