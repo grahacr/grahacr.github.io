@@ -129,6 +129,7 @@ button {
   color: #FFFFFF;
   border: none;
   font-family: "Source Sans Light";
+  box-shadow: 5px 8px 20px rgba(0,0,0,0.4);
 }
 
 .pros-container {
@@ -225,7 +226,7 @@ button {
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-left: 10rem;
   padding-right: 10rem;
   padding-bottom: 5rem;
@@ -253,6 +254,7 @@ button {
 .individualtutorial {
   justify-content: space-around;
   position: relative;
+  padding-left: 1.5rem;
 }
 
 .firstimage {
@@ -267,8 +269,8 @@ button {
   justify-content: center;
   position: absolute;
   z-index: 2;
-  left: 45%;
-  top: 15%;
+  left: 54%;
+  top: 13%;
   right: 50%;
   transform: translate(-50%);
   opacity: 90%;
@@ -348,6 +350,10 @@ button {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Source Sans Light';
+  width: 212px;
+  height: 52px;
+  text-align: center;
+  line-height: 26px;
 }
 
 .option h2 {
