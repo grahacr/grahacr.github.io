@@ -129,7 +129,7 @@ button {
   color: #FFFFFF;
   border: none;
   font-family: "Source Sans Light";
-  box-shadow: 5px 8px 20px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
 }
 
 .pros-container {
