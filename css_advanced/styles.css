@@ -103,14 +103,15 @@ header {
   justify-content: center;
   flex-direction: row;
   margin: 0;
-  gap: 40px;
+  gap: 65px;
 }
 
 .words p {
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 button {
@@ -136,20 +137,23 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .pros-container h2 {
+  font-family: 'Source Sans Pro ExtraLight Regular';
   text-align: center;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 32px;
   color: #FFFFFF;
   padding-top: 3rem;
-  padding-bottom: 5rem;
-  font-family: 'Source Sans Light';
+  padding-bottom: 4rem;
+  margin: 0;
 }
 .pros-container span {
   color: #C271FF;
+  font-weight: 700;
+  font-family: 'Source Sans Black Semibold';
 
 }
 .all-pros {
@@ -157,6 +161,7 @@ button {
   justify-content: space-between;
   height: 237px;
   width: 1009px;
+  padding-bottom: 2rem;
 }
 
 .all-pros .person h3 {
@@ -316,21 +321,22 @@ button {
   height: 502px;
   background-color: #071629;
   color: #FFFFFF;
+  padding-bottom: 1rem;
 }
 
 .membershipcontainer span {
   color: #C271FF;
   font-size: 32px;
   font-weight: 700;
-  font-family: 'Source Sans Light'
+  font-family: 'Source Sans Pro Bold';
 }
 
 .membershipcontainer h1 {
   font-size: 32px;
   font-family: 'Source Sans Light';
   font-weight: 400;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 .membershipoptions {
   display: flex;
@@ -357,7 +363,7 @@ button {
 }
 
 .option h2 {
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 18px;
 }
 .option img {
